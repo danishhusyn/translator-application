@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-client=Groq(api_key="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")
+client=Groq(api_key=api_key)
 
 st.title("English to urdu translator application")
 
